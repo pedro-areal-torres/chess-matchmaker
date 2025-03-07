@@ -3,7 +3,7 @@
 import Table from 'cli-table3';
 import inquirer from 'inquirer';
 
-import { knockout, ratingBasedGroups, roundRobin } from '@features/index';
+import { knockout, ratingBasedGroups, roundRobin } from './features';
 import { Match, Player, Round, Tournament } from './types/tournament';
 
 // Display CLI options
