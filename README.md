@@ -1,4 +1,4 @@
-# 🏆 Chess Matchmaker - Tournament Scheduler
+# ♟️ Chess Matchmaker - Tournament Scheduler
 
 **Chess Matchmaker** generates **tournament schedules** using different formats:
 
@@ -32,7 +32,7 @@ import { roundRobin, ratingBasedGroups, knockout } from 'chess-matchmaker';
 
 ---
 
-## 🛠️ Functions Overview
+## 🛠️ Functions
 
 1️⃣ **Round Robin**
 

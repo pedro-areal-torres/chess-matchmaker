@@ -1,5 +1,5 @@
-import { BYE_PLAYER } from '@src/constants/global';
-import { Match, Tournament } from '@src/types/tournament';
+import { BYE_PLAYER } from '../constants';
+import { Match, Tournament } from '../types';
 
 /**
  * Generates a Knockout tournament schedule.
