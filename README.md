@@ -10,9 +10,17 @@ This package **automatically handles an odd number of players** by adding a **BY
 
 ---
 
-## 📥 Installation
+## Installation
 
-To install the package via NPM, run:
+You can use it in two ways:
+
+1️⃣ [Import functions in your project](#using-as-a-library-in-your-project)
+
+2️⃣ [Use the CLI directly from the terminal](#using-the-cli)
+
+---
+
+## Using as a Library in Your Project
 
 ```sh
 npm install chess-matchmaker
@@ -29,10 +37,6 @@ After installing, you can import the functions like this:
 ```ts
 import { roundRobin, ratingBasedGroups, knockout } from 'chess-matchmaker';
 ```
-
----
-
-## 🛠️ Functions
 
 1️⃣ **Round Robin**
 
@@ -149,3 +153,21 @@ Example Output:
   },
 ];
 ```
+
+---
+
+## Using the CLI
+
+You can run the Chess Matchmaker CLI to generate a tournament schedule without writing code.
+
+```sh
+npm install -g chess-matchmaker
+```
+
+Or with yarn:
+
+```sh
+yarn global add chess-matchmaker
+```
+
+---
