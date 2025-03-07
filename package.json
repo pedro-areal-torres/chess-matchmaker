@@ -1,17 +1,27 @@
 {
   "name": "chess-matchmaker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tournament scheduling system for chess and other games",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write ."
   },
-  "keywords": [],
+  "keywords": [
+    "tournament",
+    "round robin",
+    "knockout",
+    "match scheduler",
+    "chess"
+  ],
   "author": "Pedro Torres",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "eslint": "^9.21.0",
