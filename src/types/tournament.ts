@@ -1,8 +1,8 @@
 /**
  * Represents an individual match between two players.
- * If there is a BYE, player2 is undefined.
  */
 export type Match = {
+  gameNumber: number;
   player1: string;
   player2: string;
 };
@@ -17,6 +17,23 @@ export type Round = {
 };
 
 /**
- * The function returns an array of rounds.
+ * Represents a player in the Swiss System tournament.
+ * Each player has a name and a score.
  */
-export type RoundRobinSchedule = Round[];
+export type Player = {
+  name: string;
+  rating: number;
+};
+
+/**
+ * Represents a groups of rounds
+ */
+export type Tournament = Round[];
+
+/**
+ * Represents the grouped players and the rounds they play.
+ */
+export type GroupedTournament = {
+  groups: Player[][];
+  rounds: Tournament;
+};
