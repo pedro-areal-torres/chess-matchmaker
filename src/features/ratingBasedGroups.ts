@@ -1,6 +1,6 @@
-import { DEFAULT_MAX_PLAYERS_PER_GROUP } from '@src/constants/global';
-import { roundRobin } from '@src/features/roundRobin';
-import { GroupedTournament, Player, Round } from '@src/types/tournament';
+import { DEFAULT_MAX_PLAYERS_PER_GROUP } from '../constants';
+import { GroupedTournament, Player, Round } from '../types';
+import { roundRobin } from './roundRobin';
 
 /**
  * Generates a Swiss System tournament schedule.
