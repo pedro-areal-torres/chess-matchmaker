@@ -1,6 +1,6 @@
 {
   "name": "chess-matchmaker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tournament scheduling system for chess and other games",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
