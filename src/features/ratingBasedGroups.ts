@@ -3,16 +3,6 @@ import { GroupedTournament, Player, Round } from '../types';
 import { roundRobin } from './roundRobin';
 
 /**
- * Generates a Swiss System tournament schedule.
- * Players are grouped based on their scores, with a max limit per group.
- * Each group plays a Round Robin tournament.
- *
- * @param players - Array of SwissPlayer objects (name & score).
- * @param maxPlayersPerGroup - The max number of players per group (default: 5).
- * @returns An array of rounds where players compete within their groups.
- */
-
-/**
  * Groups players based on their rating and generates matchups within each group.
  * Each group plays a Round Robin tournament.
  *
